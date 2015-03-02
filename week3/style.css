@@ -1,9 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
+
 body {
 	background-color: #DD3C8A
 
 }
 h1 {
 	font: Helvetica; font-size: 30px;
+	font-family: 'Lobster Two'
 
 }
 
