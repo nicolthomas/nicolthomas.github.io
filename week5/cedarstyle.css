@@ -7,25 +7,44 @@ h1 {
 
 body {
 	font-size: 16px;
-	font-family: serif;
 	background-color:#c3e5c0;
 	
 }
 header {
+	background-color: #ffffff;
 
 }
 
 h2{ 
-	font-family: palatino, georgia, serif;
-}
-
-nav{ 
+	font-family: 'Coming Soon';
+	border-bottom: 4px solid black;
 
 }
-nav ul{
+h3{
+	font-size: 25px;
+}
+
+nav{	
+	background-color: #ffffff; 
+	display: inline-block;
+	float: right;
+	font-family: 'Coming Soon';
+
+
+
+}
+nav ul{ 
+	float: left;
+	
+
+	
 
 }
 nav li{
+	display: inline-block;
+	margin:1.8em;
+
+
 
 }
 #hero{
@@ -33,8 +52,28 @@ nav li{
 	margin: 0 auto;
 }
 #main{
+	width: 250px;
+}
+
+.column{
+	width: 250px;
+	float: left;
 
 }
-.column{
+.what:{
+	width: 250px;
+	float: left;
+} 
+footer{
+	clear: both;
+	font-family: 'Coming Soon';
+}
+footer li{
+	display: inline-block;
+	margin: 1.8em;
+}
+footer ul{
+		background-color: #ffffff;
+		padding: auto;
 
 }
