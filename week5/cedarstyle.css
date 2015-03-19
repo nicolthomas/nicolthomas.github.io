@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+h1 {
+	text-align: left;
+	font-family: 'Coming Soon';
+
+}
+
+body {
+	font-size: 16px;
+	font-family: serif;
+	background-color:#c3e5c0;
+	
+}
+header {
+
+}
+
+h2{ 
+	font-family: palatino, georgia, serif;
+}
+
+nav{ 
+
+}
+nav ul{
+
+}
+nav li{
+
+}
+#hero{
+	width: 700px;
+	margin: 0 auto;
+}
+#main{
+
+}
+.column{
+
+}
