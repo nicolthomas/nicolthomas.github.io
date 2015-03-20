@@ -29,42 +29,37 @@ nav{
 	display: inline-block;
 	float: right;
 	font-family: 'Coming Soon';
-
-
-
 }
 nav ul{ 
 	float: left;
 	
-
-	
-
 }
 nav li{
 	display: inline-block;
 	margin:1.8em;
-
-
-
 }
 #hero{
 	width: 700px;
 	margin: 0 auto;
 }
 #main{
-	width: 250px;
+	width: 2000px;
+
+}
+#navv{
+	
 }
 
 .column{
 	width: 250px;
+	margin: 25px 25px 25px 25px;
 	float: left;
 
 }
-.what:{
-	width: 250px;
-	float: left;
-} 
+
+ 
 footer{
+	float: right;
 	clear: both;
 	font-family: 'Coming Soon';
 }
@@ -73,6 +68,7 @@ footer li{
 	margin: 1.8em;
 }
 footer ul{
+		float:right;
 		background-color: #ffffff;
 		padding: auto;
 
