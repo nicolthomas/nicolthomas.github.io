@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
 h1 {
 	text-align: left;
 	font-family: 'Coming Soon';
@@ -11,19 +13,22 @@ body {
 	
 }
 header {
-	background-color: #ffffff;
+	background-color: #ffffff
+
 
 }
 
 h2{ 
 	font-family: 'Coming Soon';
-	border-bottom: 4px solid black;
+	border-bottom: 2px solid black;
 
 }
 h3{
 	font-size: 25px;
 }
-
+p{
+	font-family: 'Merriweather'
+}
 nav{	
 	background-color: #ffffff; 
 	display: inline-block;
@@ -44,6 +49,9 @@ nav li{
 }
 #main{
 	width: 2000px;
+	clear: :both;
+	display: block;
+	margin-left: 250px;
 
 }
 #navv{
@@ -70,6 +78,6 @@ footer li{
 footer ul{
 		float:right;
 		background-color: #ffffff;
-		padding: auto;
+	
 
 }
