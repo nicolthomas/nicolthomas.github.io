@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Nixie+One);
+
+body{
+	font-size: 16px;
+}
+h1{
+	font-size: 7em;
+	color:#000;
+
+	
+}
+nav{
+	display: block;
+	float: right;
+	margin: 20px 20px;
+}
+
+li{
+	display: inline-block;
+	margin: 1em;
+	padding: 4px;
+	font-family: 'Nixie One'; serif;
+
+}
+li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 2em;
+
+}
+
+#title_bg{
+	background: url("sunrise3.jpg") no-repeat center center fixed;
+	background-size:cover;
+	width:100%;
+	height: 100vh;
+	position:relative;
+	overflow: auto;
+	
+
+}
+#title{
+	background-color:;
+	width: 29em;
+	font-family: 'Nixie One';
+	padding:1em;
+	margin: 10em 10em 1em;
+	border: 3px solid #000;
+}
+#about{
+	width: 100%;
+	height: 100vh;
+	background-color: #EEE;
+
+}
+ 
+
