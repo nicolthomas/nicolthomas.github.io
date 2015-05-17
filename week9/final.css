@@ -52,26 +52,24 @@ li a{
 
 }
 #title{
-	background-color:;
 	width: 29em;
 	font-family: 'Nixie One';
 	padding:1em;
 	margin: 10em 10em 1em;
 	border: 3px solid #000;
 }
+
 #about{
 	width: 90%%;
 	height: 100vh;
 	background-color: #EEE;
 	padding: 4em 0 0 10em;
-
-
 }
+
+
 #work{
 	width: 100%;
 	height: 100vh;
-	background-color:#000;
-
 }
 
 #pabout{
@@ -88,5 +86,17 @@ li a{
 	float: right;
 
 }
+
+
+
+#work_bg{
+	background: url("water.jpg") no-repeat center center fixed;
+	background-size:cover;
+	width:100%;
+	height: 100vh;
+	position:relative;
+	overflow: auto;
+}
+
  
 
