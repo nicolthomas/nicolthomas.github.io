@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Nixie+One);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+/*html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  /*box-sizing: inherit;*/
+}*/
 
 body{
 	font-size: 16px;
@@ -47,10 +53,10 @@ li a{
 	width:100%;
 	height: 100vh;
 	position:relative;
-	overflow: auto;
-	
+	overflow: auto;	
 
 }
+
 #title{
 	width: 29em;
 	font-family: 'Nixie One';
@@ -60,17 +66,17 @@ li a{
 }
 
 #about{
-	width: 90%%;
+	/*width: 90%%;*/
 	height: 100vh;
 	background-color: #EEE;
 	padding: 4em 0 0 10em;
 }
 
 
-#work{
+/*#work{
 	width: 100%;
 	height: 100vh;
-}
+}*/
 
 #pabout{
 	width:25%;
@@ -84,12 +90,14 @@ li a{
 
 #about_picture{
 	float: right;
-
+	margin-right: 6em;
+	/*margin-bottom: 5em;*/
+	margin-top: -5em;
 }
 
 
 
-#work_bg{
+#work{
 	background: url("water2.jpg") no-repeat center center fixed;
 	background-size:cover;
 	width:100%;
